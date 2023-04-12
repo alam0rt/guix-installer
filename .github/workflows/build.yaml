@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Guix
-        uses: alam0rt/guix-install-action
+        uses: alam0rt/guix-install-action@master
 
       - name: Build ISO
         run: |
